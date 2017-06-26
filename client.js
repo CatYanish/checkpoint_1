@@ -5,7 +5,8 @@ $('document').ready(function () {
   console.log('document ready');
 var counter = 0;
 $('.wrapper').on('click', "#swap", "#newDiv", function () {
-  $(this).parent().removeClass("color").addClass("yellow");
+  //$(this).parent().removeClass("color").addClass("yellow");
+  $(this).parent().toggleClass("yellow");
 });
 
 
